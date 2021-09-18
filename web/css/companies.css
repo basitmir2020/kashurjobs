@@ -1,0 +1,90 @@
+@import "default.css";
+body{
+	background: url("../img/header.jpg");
+	background-size: cover;
+	position: relative;
+	background-repeat:no-repeat;
+}
+.loginDiv{
+	margin-top:7%;
+}
+.loginDiv form table{
+	background:lightblue;
+	color:black;
+	margin-left:12%;
+	height:400px;
+	width:80%;
+	opacity:0.6;
+	text-align:center;
+	border-bottom-right-radius:25px;
+	border-top-left-radius:25px;
+}
+.loginDiv form table tr td input{
+	width:70%;
+	height:30px;
+	background:none;
+	outline:none;
+	border:none;
+	border-bottom:1px solid #f6f6f6;
+	padding-left:10px;
+	text-indent:20px;
+}
+.loginDiv form table tr td i{
+	background:none;
+	color:grey;
+	border-bottom:1px solid #f6f6f6;
+	padding:8px 0px;
+	float:center;
+	margin-right:-20px;
+}
+#btnLogin{
+	width:70%;
+	height:50px !important;
+	background:url("../img/bg1.jpg");
+	color:#fff;
+	letter-spacing:5px;
+	font-weight:bold;
+	font-family:arial black;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	box-shadow:1px 2px 3px 2px #fff;
+				-1px -2px -3px 2px #fff;
+	-webkit-box-shadow:1px 2px 3px 2px #fff;
+				-1px -2px -3px 2px #fff;
+	-moz-box-shadow:1px 2px 3px 2px #fff;
+				-1px -2px -3px 2px #fff;
+	-ms-box-shadow:1px 2px 3px 2px #fff;
+				-1px -2px -3px 2px #fff;
+	-o-box-shadow:1px 2px 3px 2px #fff;
+				-1px -2px -3px 2px #fff;
+}
+#btnLogin:hover{
+	background:url("../img/sample1.jpg");
+	color:#fff;
+	cursor:pointer;
+	text-align:center;
+	background-size:cover;
+	position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.topTD{
+	height:80px;
+	width:inherit;
+	border-bottom:1px solid grey;
+	opacity:0.4;
+	color:darkblue;
+	letter-spacing:5px;
+	font-family:century gothic;
+	text-align:center;
+}
+.links .link{
+	border-bottom:1px solid blue;
+	letter-spacing:1px;
+	color:blue;
+}
+.link:hover{
+	color:red;
+	cursor:pointer;
+	border-bottom:1px solid red;
+}

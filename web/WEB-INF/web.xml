@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!--//////////////////////////////Admin Pannel Start/////////////////////-->
+    <servlet>
+        <servlet-name>Dashboard</servlet-name>
+        <jsp-file>Admin/views/dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dashboard</servlet-name>
+        <url-pattern>/Admin/Admin-Dashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Enquiry</servlet-name>
+        <jsp-file>Admin/views/Enquiry.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Enquiry</servlet-name>
+        <url-pattern>/Admin/Enquiry</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Add Company</servlet-name>
+        <jsp-file>Admin/views/Company.jsp</jsp-file>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Add Company</servlet-name>
+        <url-pattern>/Admin/addCompany</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Manage Company</servlet-name>
+        <jsp-file>Admin/views/manageCompanies.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Manage Company</servlet-name>
+        <url-pattern>/Admin/manageCompany</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <jsp-file>/Admin/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Admin/Admin-Logout</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <jsp-file>/Admin/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Admin/Admin-Login</url-pattern>
+    </servlet-mapping>
+    <!--///////////////////////Admin  Pannel End/////////////////////////////-->
+    <!--//////////////////////Companies Pannel Start/////////////////////////-->
+    <servlet>
+        <servlet-name>CompanyDashboard</servlet-name>
+        <jsp-file>Companies/views/dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompanyDashboard</servlet-name>
+        <url-pattern>/Companies/Company-Dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>User</servlet-name>
+        <jsp-file>Companies/views/createUser.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>User</servlet-name>
+        <url-pattern>/Companies/Create-User</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageUser</servlet-name>
+        <jsp-file>Companies/views/manageUser.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageUser</servlet-name>
+        <url-pattern>/Companies/Manage-User</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateRole</servlet-name>
+        <jsp-file>Companies/views/createRole.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateRole</servlet-name>
+        <url-pattern>/Companies/Create-Role</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageRole</servlet-name>
+        <jsp-file>Companies/views/manageRole.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageRole</servlet-name>
+        <url-pattern>/Companies/Manage-Role</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateSalaries</servlet-name>
+        <jsp-file>Companies/views/createSalaries.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateSalaries</servlet-name>
+        <url-pattern>/Companies/Create-Salaries</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageSalaries</servlet-name>
+        <jsp-file>Companies/views/manageSalaries.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageSalaries</servlet-name>
+        <url-pattern>/Companies/Manage-Salaries</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateWeekdays</servlet-name>
+        <jsp-file>Companies/views/createWeekdays.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateWeekdays</servlet-name>
+        <url-pattern>/Companies/Create-Weekdays</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageWeekdays</servlet-name>
+        <jsp-file>Companies/views/manageWeekdays.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageWeekdays</servlet-name>
+        <url-pattern>/Companies/Manage-Weekdays</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateSchedule</servlet-name>
+        <jsp-file>Companies/views/createSchedule.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateSchedule</servlet-name>
+        <url-pattern>/Companies/Create-Schedule</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageSchedule</servlet-name>
+        <jsp-file>Companies/views/manageSchedule.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageSchedule</servlet-name>
+        <url-pattern>/Companies/Manage-Schedule</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddEmployee</servlet-name>
+        <jsp-file>Companies/views/addEmployee.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEmployee</servlet-name>
+        <url-pattern>/Companies/Add-Employee</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageEmployee</servlet-name>
+        <jsp-file>Companies/views/manageEmployee.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageEmployee</servlet-name>
+        <url-pattern>/Companies/Manage-Employee</url-pattern>
+    </servlet-mapping>
+      <servlet>
+        <servlet-name>AddAttendence</servlet-name>
+        <jsp-file>Companies/views/addAttendence.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAttendence</servlet-name>
+        <url-pattern>/Companies/Add-Attendence</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ManageAttendence</servlet-name>
+        <jsp-file>Companies/views/manageAttendence.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageAttendence</servlet-name>
+        <url-pattern>/Companies/Manage-Attendence</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name>IssueSalary</servlet-name>
+        <jsp-file>Companies/views/issueSalary.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IssueSalary</servlet-name>
+        <url-pattern>/Companies/Issue-Salary</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManageSalary</servlet-name>
+        <jsp-file>Companies/views/manageSalary.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageSalary</servlet-name>
+        <url-pattern>/Companies/Manage-Salary</url-pattern>
+    </servlet-mapping> 
+    <servlet>
+        <servlet-name>ChangePassword</servlet-name>
+        <jsp-file>Companies/views/changePassword.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePassword</servlet-name>
+        <url-pattern>/Companies/Change-Password</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CompanyLogout</servlet-name>
+        <jsp-file>Companies/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompanyLogout</servlet-name>
+        <url-pattern>/Companies/Company-Logout</url-pattern>
+    </servlet-mapping>
+     <!--//////////////////////Companies Pannel End/////////////////////////-->
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
